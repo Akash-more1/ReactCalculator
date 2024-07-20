@@ -52,13 +52,15 @@
 }
 
 .glow-box {
+  width: 100%;
+  height: 100%;
   padding: 20px 40px;
   background-color: #282c34; /* Your preferred background color for the div */
   color: white;
   font-size: 24px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), /* Horizontal and vertical offset, blur radius, and color */
-              0 0 30px rgba(255, 255, 255, 0.4), /* Another layer of glow */
-              0 0 40px rgba(255, 255, 255, 0.3); /* Yet another layer of glow */
+  box-shadow: 0 0 600px rgba(224, 26, 178, 0.6), /* Horizontal and vertical offset, blur radius, and color */
+              0 0 50px rgba(30, 11, 126, 0.4), /* Another layer of glow */
+              0 0 100px rgba(33, 120, 173, 0.3); /* Yet another layer of glow */
 }

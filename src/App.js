@@ -156,21 +156,21 @@ const divide=  ()=>{
 
       
        {
-        showResult==true? <div><h1 style={{ color: 'green' }}>Success!</h1> <h1> Result-YOUR_RESULT {result}</h1></div> : <></>
+        showResult==true? <div><h1 style={{ color: 'green' }}>Success!</h1> <h4> Result-YOUR_RESULT {result}</h4></div> : <></>
         
        }
 
        {
-        showError==true? <div><h2 style={{ color: 'red' }}>Error!</h2> <h1>{errorName}</h1></div>: <></>
+        showError==true? <div><h2 style={{ color: 'red' }}>Error!</h2> <h4>{errorName}</h4></div>: <></>
        }
 
        {
-        isempty1==true? <h2>Num1 cannot be Empty</h2>: <></>
+        isempty1==true? <h4>Num1 cannot be Empty</h4>: <></>
         
        }
 
        {
-        isempty2==true? <h2>Num2 cannot be Empty</h2>: <></>
+        isempty2==true? <h4>Num2 cannot be Empty</h4>: <></>
        }
 
       <h1>{isempty1}</h1>
