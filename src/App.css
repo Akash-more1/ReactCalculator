@@ -1,4 +1,11 @@
 .App {
+ 
+  height: 500px;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #ffffcc;
   text-align: center;
 }
 
@@ -35,4 +42,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button{
+  size: 20px;
+  margin: 5px;
+  color: white;
+  background-color: black;
+}
+
+.glow-box {
+  padding: 20px 40px;
+  background-color: #282c34; /* Your preferred background color for the div */
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6), /* Horizontal and vertical offset, blur radius, and color */
+              0 0 30px rgba(255, 255, 255, 0.4), /* Another layer of glow */
+              0 0 40px rgba(255, 255, 255, 0.3); /* Yet another layer of glow */
 }
