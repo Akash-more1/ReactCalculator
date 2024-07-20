@@ -52,8 +52,10 @@
 }
 
 .glow-box {
-  width: 100%;
-  height: 100%;
+  width: 500px;    /* Set your desired width */
+  height: 500px;   /* Set your desired height */
+  overflow: hidden; /* Content that overflows will be hidden */
+  border: 1px solid #000; /* Optional: Just to see the boundary of the div */
   padding: 20px 40px;
   background-color: #282c34; /* Your preferred background color for the div */
   color: white;
